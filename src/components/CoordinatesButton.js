@@ -4,7 +4,9 @@
 import React from 'react';
 
 class CoordinatesButton extends React.Component {
-  clickEvent
+  clickEvent = (event) => {
+    
+  }
   
    render() {
     return (
