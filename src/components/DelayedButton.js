@@ -5,10 +5,11 @@ import React from 'react';
 
 class DelayedButton  extends React.Component {
   clickEvent = (event) => {
-event.persist();
+    event.persist();
     setTimeout(() => {
-      this.props.onDelayedClick(event);
-}, this.props.delay);
+    this.props.onDelayedClick(event);
+  },
+  this.props.delay);
 }
   
    render() {
