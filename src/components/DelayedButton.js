@@ -1,4 +1,4 @@
-// Code CoordinatesButton Component Here
+// Code DelayedButton  Component Here
 
 
 import React from 'react';
