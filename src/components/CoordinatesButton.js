@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-class Keypad extends React.Component {
+class CoordinatesButton extends React.Component {
   
    render() {
     return (
@@ -12,4 +12,4 @@ class Keypad extends React.Component {
    }
 }
 
-export default Keypad;
+export default CoordinatesButton;
