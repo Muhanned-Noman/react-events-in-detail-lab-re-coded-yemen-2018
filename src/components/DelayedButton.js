@@ -5,8 +5,11 @@ import React from 'react';
 
 class DelayedButton  extends React.Component {
   clickEvent = (event) => {
-    this.props.onReceiveCoordinates([event.clientX, event.clientY]);
-  }
+event.persist();
+    setTimeout(() => {
+      this.props.onDelayedClick(event);
+}, this.props.delay);
+}
   
    render() {
     return (
