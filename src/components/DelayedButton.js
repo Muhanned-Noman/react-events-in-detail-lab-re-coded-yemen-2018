@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-class CoordinatesButton extends React.Component {
+class DelayedButton  extends React.Component {
   clickEvent = (event) => {
     this.props.onReceiveCoordinates([event.clientX, event.clientY]);
   }
@@ -15,4 +15,4 @@ class CoordinatesButton extends React.Component {
    }
 }
 
-export default CoordinatesButton;
+export default DelayedButton ;
